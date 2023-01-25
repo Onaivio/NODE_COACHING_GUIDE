@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fetch API</title>
+  </head>
+  <body>
+    <br />
+    <button id="getText">Get Text</button>
+    <br />
+    <button id="getUser">Get User</button>
+    <br />
+    <p id="output"></p>
+    <p id="out"></p>
+
+    <script>
+      document.getElementById("getUser").addEventListener("click", getUser);
+      document.getElementById("getText").addEventListener("click", getText);
+      function getText() {
+        // fetch('sample.txt')
+        // .then(function(res){
+        //     return res.text()
+        // }).then(function(data){
+        //     console.log(data)
+        // })
+
+        // Arrow Function
+        fetch("sample.txt")
+          .then((res) => res.text())
+          .then((data) => {
+            document.getElementById("output").innerHTML = data;
+          })
+          .catch((err) => console.error(err));
+      }
+
+      function getUser() {
+        fetch("user.json")
+          .then((res) => res.json())
+          .then((data) => {
+            let output = '<h2>Users</h2>'
+            data.forEach(user => {
+                output+=`
+                <ul>
+                    <li>ID: ${user.id}</li>    
+                    <li>Name: ${user.name}</li>    
+                    <li>Email: ${user.email}</li>    
+                </ul>
+                `
+            });
+            document.getElementById("output").innerHTML = output;
+          })
+          .catch((err) => console.log(err));
+      }
+    </script>
+  </body>
+</html>
