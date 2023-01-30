@@ -11,3 +11,7 @@ Geolocate Data closet to end users is one of the ain uses using this couch repli
 RestAPI is also one of the core features, couchDB provide the use of restful Api, for data from anywhere with full CRUD Operation (Create Read Update Delete).
 
 It also enable Structured and Non-structured Data
+
+
+TLA+ code tested 
+Leise Lamport Saidthat this was use in the testing and debugging real time code base project He said they used it in Amazon in 2013 and have been using it seen then 
