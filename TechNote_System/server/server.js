@@ -1,11 +1,16 @@
 const express = require('express')
-const colors = require('colors')
-const morgan = require('morgan')
-const dotenv = require('dotenv')
-const PORT = process.env.PORT || 8080;
+// const colors = require('colors')
+// const morgan = require('morgan')
+// const dotenv = require('dotenv')
+const PORT = process.env.PORT || 3500;
 
 // reat Object 
-// const app = express()
+const app = express()
+
+// Listener Port 
+app.listen(port, () => {
+    console.log(`Server Running on Port ${PORT}`)
+})
 
 // Middlewares 
 // app.us(express.json())
@@ -20,7 +25,3 @@ const PORT = process.env.PORT || 8080;
 
 // Port 
 
-// Listener Port 
-// app.listen(port, () => {
-//     console.log(`Server Running in ${process.env.NODE_MODE} Moding `)
-// })
