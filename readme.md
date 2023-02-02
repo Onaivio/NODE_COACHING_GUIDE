@@ -37,3 +37,9 @@ NodeJS eliminate the waiting, and simply continues the next request, Node.js run
 
     Node.js can add, delete, modify data in your database
 
+## What is Node.js File System;
+    It contains the task to be executed on certain event 
+
+    A typical event is someone trying to access a port on the server
+
+    A typical event is someone trying to access a port on the server and executed with ".js"
