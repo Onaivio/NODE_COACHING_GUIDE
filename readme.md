@@ -54,10 +54,10 @@ NodeJS eliminate the waiting, and simply continues the next request, Node.js run
     This is a document-based open soruce database system, which make use of the mongoose, Mangoose is a schema-based solution to model applications data, MongoDB Atlas is the fastest, easiest way get started with MangoDB  url =>  https://www.mangodb.com/cloud/atlas
 
 ## Express 
-    This is a open source web-application framework for NodeJS 
+    Express.js is a web application framework for Node.js, released as free and open-source software under the MIT License. It is designed for building web applications and APIs. It has been called the de facto standard server framework for Node.js. Express is the back-end part of the MEAN stack, together with the MongoDB database and the AngularJS front-end framework.
 
 ## React 
     This is a Javascript framework for building frontend application and User interfaces.  
 
 ## NodeJS 
-    This is a Javascript run-time environment that execute Javascript code outside of the browser (such as server), simply a server-side progrmming language 
+    Node.js is an open-source, cross-platform, JavaScript runtime environment that executes JavaScript code outside of a browser. It is designed to build scalable network applications. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices. Node.js allows developers to write JavaScript code that can be executed on the server-side, which eliminates the need for a separate language to be used on the back-end. Node.js is one of the most popular JavaScript platforms for server-side programming that allows developers to build web applications quickly and easily.
