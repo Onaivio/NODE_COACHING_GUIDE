@@ -43,3 +43,21 @@ NodeJS eliminate the waiting, and simply continues the next request, Node.js run
     A typical event is someone trying to access a port on the server
 
     A typical event is someone trying to access a port on the server and executed with ".js"
+
+
+
+
+# MERN Stack 
+    This is an simply define as M for MongoDB, E for Express, R for React, and N for NodeJS
+
+## MongoDB 
+    This is a document-based open soruce database system, which make use of the mongoose, Mangoose is a schema-based solution to model applications data, MongoDB Atlas is the fastest, easiest way get started with MangoDB  url =>  https://www.mangodb.com/cloud/atlas
+
+## Express 
+    This is a open source web-application framework for NodeJS 
+
+## React 
+    This is a Javascript framework for building frontend application and User interfaces.  
+
+## NodeJS 
+    This is a Javascript run-time environment that execute Javascript code outside of the browser (such as server), simply a server-side progrmming language
