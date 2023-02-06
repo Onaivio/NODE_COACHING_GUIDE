@@ -60,4 +60,4 @@ NodeJS eliminate the waiting, and simply continues the next request, Node.js run
     This is a Javascript framework for building frontend application and User interfaces.  
 
 ## NodeJS 
-    This is a Javascript run-time environment that execute Javascript code outside of the browser (such as server), simply a server-side progrmming language
+    This is a Javascript run-time environment that execute Javascript code outside of the browser (such as server), simply a server-side progrmming language 
