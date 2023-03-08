@@ -8,7 +8,7 @@
 6. [x]  Display current user and assigned role
 7. [x]  Provide a logout option
 8. [x]  Require users to login at least once per week
-9. [x]  Require a way to remove employee access asap if needed 
+9. [x]  Require a way to remove employee access asap if needed
 10. [x] Notes are assigned to specific employees
 11. [x] Note have a ticket #, title, note body, created & updated dates
 12. [x] Notes are either OPEN or COMPLETED
@@ -17,7 +17,7 @@
 15. [x] Anyone can create a note (when customer check-in)
 16. [x] Employees can only view and edit their assigned notes
 17. [x] Managers and Admins can view, edit, and delete all notes
-18. [x] Only Managers and Admins can access User Settings
+18. [x] Only Managers and Admins can access User Settings   
 19. [x] Only Managers and Admins can create new users
 20. [x] Desktop mode is most important but it should also be responsive for all devices
 21. [x] Converted to a mobile Application
